@@ -1,0 +1,327 @@
+.cart_display{
+  max-width:800px;
+  margin:0 auto;
+  height:100vh;
+}
+
+.title_of_page{
+  text-align:center;
+  color:rgb(115, 83, 160);
+  font-weight:bolder;
+  padding:5px 10px;
+  text-decoration:underline;
+  margin-bottom:40px;
+  margin-top:-10px;
+  border-radius:8px;
+}
+
+.totalearning{
+  margin:auto;
+  margin-bottom:20px;
+  background-color:black;
+  width:190px;
+  padding:8px 10px;
+  border-radius:8px;
+  text-align:center;
+  color:white;
+  font-size:15px;
+  font-weight:600;
+}
+
+.Bill{
+  text-align:center;
+  width:180px;
+  color:#E27D60;
+  font-weight:600;
+  margin:10px;
+  font-size:17px;
+  padding:5px;
+  margin:auto;
+  margin-top:20px;
+  border-radius:10px;
+}
+
+.Remove_cartitem{
+  font-size:14px;
+  padding:5px 10px;
+  border:1px solid transparent;
+  border-radius:8px;
+  font-weight:600px;
+  color:white;
+  background-color:limegreen;
+  margin:10px;
+  margin-left:100px;
+}
+
+.Remove_cartitem:hover{
+  background-color:#8EE4AF;
+  color:black;
+  font-weight:600;
+}
+
+.cart_item_data{
+  font-size:14px;
+  width:25%;
+  text-align:center;
+}
+
+.Confirm_order{
+  margin:auto;
+  margin-top:20px;
+  display:block;
+  color:white;
+  background-color:limegreen;
+  border-radius:8px;
+  border:1px solid transparent;
+  padding:5px 10px;
+}
+
+.Confirm_order:hover{
+  background-color:#8EE4AF;
+  color:black;
+  font-weight:600;
+}
+
+.cart_table{
+  width:100%;
+  margin-left:-100px;
+}
+
+.cart_row{
+  margin:10px;
+}
+
+.cart{
+  margin:20px;
+  margin-left:300px;
+  border-radius:8px;
+  border:1px solid transparent;
+  padding:5px 10px;
+}
+
+.order_bill{
+  margin:10px;
+  padding:5px;
+  width:150px;
+}
+
+.button{
+  padding:5px 10px;
+  margin:10px;
+  font-size:12px;
+  border:1px solid transparent;
+  border-radius:8px;
+  background-color:limegreen;
+  color:white;
+}
+
+.show{
+  margin-left:-50px;
+}
+.button:hover{
+  background-color:skyblue;
+  color:black;
+}
+
+.order_items_caption{
+  text-shadow:5px 5px 5px red;
+  margin:10px;
+  text-align:center;
+}
+
+.order_items_caption:hover{
+  text-decoration:underline;
+  text-shadow:5px 5px 5px skyblue;
+}
+
+.order_item_data{
+  text-align:left;
+  margin:10px;
+  width:20%;
+}
+
+.myorder_name{
+  border:1px solid transparent;
+  font-size:14px;
+  margin:10px;
+  color:#453C52;
+}
+
+.name_myorders{
+  padding:5px 8px;
+  padding-left:20px;
+  font-size:16px;
+  margin-left:-30px;
+  border-radius:8px;
+  color:#453C52;
+  width:150px;
+  text-align:center;
+  background-color:#AFD275;
+}
+
+.price_myorders{
+  width:100px;
+  margin-left:50px;
+}
+
+.items_myorders{
+  width:120px;
+}
+
+.myorders_message{
+  text-align:center;
+  color:red;
+  font-size:16px;
+  margin:20px;
+  margin-left:-120px;
+  font-weight:600;
+}
+
+.message_myorders{
+  color:cornflowerblue;
+}
+
+.order_table{
+  width:500px;
+  margin:auto;
+}
+
+.order_table_block{
+  margin:auto;
+  margin-bottom:15px;
+  margin-top:20px;
+  width:600px;
+  border:1px solid lightgray;
+  box-shadow:3px 3px 3px 3px lightgray;
+}
+
+.list_orders_to_admin{
+  width:1000px;
+  margin:auto;
+  border:1px solid black;
+  border-collapse:collapse;
+}
+
+.heading_lists{
+  font-size:14px;
+  font-weight:600;
+  padding:8px;
+  border:1px solid black;
+  text-align:center;
+}
+
+.list_row{
+  width:100px;
+  border:1px solid black;
+}
+
+.list_row_data{
+  width:100px;
+  font-size:12px;
+  padding:8px;
+  text-align:center;
+  border:1px solid black;
+}
+
+.list_row_show{
+  margin-left:10px;
+}
+
+.search_records{
+  display:flex;
+  align-items:center;
+  width:700px;
+  margin:auto;
+}
+
+.from_to_button{
+  font-size:14px;
+  margin:5px;
+  margin-right:10px;
+}
+
+.search_button{
+  background-color: limegreen;
+  font-size:14px;
+  color:white;
+  padding:5px 10px;
+  margin-left:10px;
+  border-radius:8px;
+  border:1px solid transparent;
+}
+
+.search_button:hover{
+  background-color:black;
+  font-weight:600;
+}
+
+.label_to_records{
+  color:#453C52;
+  font-size:14px;
+  font-weight:600px;
+  margin-right:5px;
+}
+
+.from{
+  margin-left:50px;
+}
+
+.to{
+  margin-left:20px;
+}
+
+.in_myorders_cancel{
+  width:250px;
+  padding-top:20px;
+  margin:auto;
+}
+
+.in_myorders{
+  width:400px;
+  margin:auto;
+}
+
+.Bill_in_show_details{
+  text-align:center;
+  text-shadow:2px 2px 2px skyblue;
+  padding:5px;
+  font-size:16px;
+}
+
+.cancel_order{
+  padding:5px 10px;
+  border:2px solid lightgray;
+  border-radius:8px;
+  background-color:#8EE4AF;
+}
+
+.cancel_order:hover{
+  background-color:red;
+  color:lightgrey;
+  font-weight:600;
+}
+
+.my_orders_bill_line{
+  display:flex;
+  align-items:center;
+}
+
+.order_table_bill_line{
+  width:300px;
+  margin:auto;
+}
+
+.display_dates{
+  width:800px;
+  display:flex;
+  align-items:center;
+  margin-bottom:15px;
+  font-weight:600;
+  margin:auto;
+  margin-bottom:20px;
+}
+
+.display_ini_fin_dates{
+  margin-left:5px;
+  color:#E27D60;
+}

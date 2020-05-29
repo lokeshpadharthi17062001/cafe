@@ -1,0 +1,436 @@
+.background_style,.background_style_signup{
+  width:100%;
+  height:100vh;
+  background:linear-gradient(rgba(255,255,0,0.3),rgba(0,0,255,0.3));
+}
+
+.background_style_signup{
+  height:1000px;
+}
+
+.Customer_signup{
+  width:600px;
+  max-height:800px;
+  border:10px solid transparent;
+  padding-top:30px;
+  margin:0 auto;
+}
+
+.viewprofile_block{
+  width:400px;
+  border:10px solid transparent;
+  margin:0 auto;
+}
+
+.Customer_signin{
+  border:10px solid transparent;
+  max-width:600px;
+  margin:auto;
+}
+
+.customer_block{
+  background-color:lightgoldenrodyellow;
+  border:5px solid black;
+  margin:15vh auto;
+  border-radius:30px;
+}
+
+.center_section{
+  width:250px;
+  margin:auto;
+}
+
+.contact_us_block{
+  width:450px;
+  margin:auto;
+}
+
+.contact_us_section{
+  display:flex;
+  align-items:center;
+}
+
+.contactus-submit{
+  margin-left:260px;
+  font-size:14px;
+  padding:10px;
+  font-weight: 600;
+  background-color: #8EE4AF;
+  border:1px solid transparent;
+  border-radius:8px;
+}
+
+.contactus-submit:hover{
+  background-color:grey;
+  color:white;
+}
+
+.contactus-section{
+  margin-bottom:20px;
+  align-items:center;
+}
+
+.contact-input-label{
+  width:210px;
+  margin-left:40px;
+  display:flex;
+  align-items:center;
+  margin-bottom:7px;
+}
+
+.Form-section{
+  margin-bottom:20px;
+  align-items:center;
+  margin-left:170px;
+}
+
+.profile-section{
+  display:flex;
+  align-items:center;
+  width:800px;
+  margin:auto;
+}
+
+.profile-input{
+  padding:5px 10px;
+  font-size:12px;
+  cursor:pointer;
+  margin-left:5px;
+}
+
+.Form-input{
+  padding:10px;
+  font-size:12px;
+  margin-left:40px;
+  padding-left:35px;
+  cursor:pointer;
+  border:1px solid grey;;
+  border-radius:5px;
+}
+
+.Form-input:hover{
+  border:1px solid darkblue;
+}
+
+.Form-input-label{
+  color:#453C52;
+  margin-left:35px;
+  font-size:16px;
+  display:flex;
+  align-items:center;
+  margin-bottom:10px;
+}
+
+.profile_label{
+  width:190px;
+  margin:5px;
+}
+
+.Form-submit{
+  margin-left:110px;
+  font-size:14px;
+  padding:10px;
+  font-weight: 600;
+  background-color: #8EE4AF;
+  border:1px solid transparent;
+  border-radius:8px;
+}
+
+.Form-submit:hover{
+  background-color:grey;
+  color:white;
+}
+
+.NewCustomers_title{
+  margin-top:30px;
+  margin-bottom:20px;
+  font-size:20px;
+  padding:10px;
+  text-align: center;
+  text-shadow:3px 3px 3px #659DBD;
+}
+
+.NewCustomers_title:hover{
+  text-shadow:3px 3px 3px peru;
+  text-decoration:underline;
+}
+
+.NewCustomers{
+  background-color:lightgoldenrodyellow;
+  border:5px solid black;
+  margin:25px auto;
+  border-radius:30px;
+}
+
+.Signin_content{
+  margin:auto;
+}
+
+.Message{
+  color:#453C52;
+  padding:10px;
+  text-align:center;
+}
+
+.about_us_background,.privacy_policy_background{
+  background-color:	#FFFDD0;
+  height:100vh;
+}
+
+.subcontent{
+  text-align:center;
+  margin:20px;
+  color:#DC4348;
+  font-size:22px;
+  font-weight:600;
+}
+
+.about_us,.privacy_policy{
+  width:85%;
+  margin:auto;
+}
+
+.about_us_content,.privacy_policy_content{
+  font-size:17px;
+  margin:10px;
+  line-height:1.2;
+}
+
+.about_us_title,.privacy_policy_title{
+  font-size:22px;
+  width:200px;
+  margin:auto;
+  color:#DC4348;
+  font-weight:bolder;
+  padding-top:40px;
+  margin-bottom:40px;
+}
+
+.Flash-error,.Flash-alert,.Flash-error-signin_up{
+  text-align: center;
+  color: darkred;
+  margin:20px;
+}
+
+.Flash-error-signin_up{
+  margin-top:40px;
+}
+
+.Flash-alert-message{
+  color:#659DBD;
+  padding:10px;
+  text-align:center;
+  font-weight:600;
+  margin-top:-20px;
+}
+
+.Mandatory{
+  color:red;
+  margin:5px;
+}
+
+.feedback_table{
+  width:80%;
+  margin:auto;
+  border:1px solid black;
+  border-collapse:collapse;
+  margin-bottom:20px;
+}
+
+.feedback_row{
+  border:1px solid black;
+  text-align:center;
+}
+
+.column_heading{
+  font-weight:bolder;
+}
+
+.feedback_data{
+  padding:10px;
+  border:1px solid black;
+}
+
+.display_users_to_owner{
+  display:flex;
+  align-items:center;
+  font-size:14px;
+  margin:10px;
+  padding:7px;
+  max-width:800px;
+  justify-content:space-around;
+  margin:0 auto;
+  color:black;
+  background-color:rgba(0,0,255,0.14);
+}
+
+.non-display_menu_liks{
+  margin-right:10px;
+  margin-top:-60px;
+  padding:5px 8px;
+}
+
+.customer_name{
+  margin:10px;
+  padding:8px;
+  font-size:14px;
+}
+
+.customer_email{
+  margin:10px;
+  font-size:14px;
+  padding:8px;
+}
+
+.display_users_section{
+  margin:10px;
+}
+
+.billing_button{
+  background-color:limegreen;
+  padding:5px 10px;
+  color:white;
+  border:1px solid transparent;
+  border-radius:8px;
+  margin:10px;
+}
+
+.billing_button:hover{
+  background-color:black;
+  font-weight:600;
+}
+
+.user_title{
+  text-align:center;
+  border:3px skyblue dashed;
+  padding:4px;
+  width:100px;
+  margin:auto;
+  margin-bottom:20px;
+  margin-top:20px;
+}
+
+.user_title:hover{
+  background-color:black;
+  color:white;
+  font-weight:600px;
+  border:3px solid black;
+}
+
+.update_profile{
+  border:1px solid transparent;
+  background-color:#CAFAFE;
+  text-align:center;
+  border-radius:5px;
+  padding:4px;
+  margin:auto;
+  display:block;
+  margin-top:20px;
+}
+
+.update_profile:hover{
+  background-color:#FF8D27;
+  color:black;
+  font-weight:600;
+}
+
+.users_display_page{
+  width:100%;
+  height:100vh;
+  margin:-20 auto;
+}
+
+.users_billing_section{
+  display:flex;
+  margin:10px;
+  margin-left:300px;
+}
+
+.Signin_link,.Signup_link{
+  width:600px;
+  margin:20px;
+  text-align:center;
+}
+
+.input-icons i{
+  position:absolute;
+}
+
+.input-icons{
+  width:100%;
+  margin-bottom:10px;
+}
+
+.icon_search{
+  margin-top:7px;
+  margin-left:25px;
+  visibility:hidden;
+}
+
+.menu_id{
+  margin:10px;
+}
+
+.delete{
+  color:white;
+  background-color:#F18904;
+  padding:5px 8px;
+  padding-left:20px;
+  border-radius:8px;
+  border:1px solid transparent;
+}
+
+.input-icons:hover .delete{
+  background-color:lightgray;
+  color:red;
+}
+
+.icon{
+  padding:10px;
+  margin-left:25px;
+  color:#453C52;
+  min-width:50px;
+  text-align:center;
+}
+
+.search_email_block{
+  margin-right:90px;
+  margin-top:-10px;
+}
+
+.clear_search{
+  margin-top:8px;
+}
+
+.icon_delete{
+  margin-left:-10px;
+  margin-top:1px;
+  color:black;
+  border:1px solid transparent;
+}
+
+.iconclear_delete{
+  margin-top:2px;
+  margin-left:-15px;
+  color:black;
+  border:1px solid transparent;
+  margin-right:10px;
+}
+
+.icon_mail{
+  margin:6px;
+  margin-left:75px;
+  margin-top:8px;
+  padding-bottom:10px;
+  color:#453C52;
+  min-width:50px;
+  text-align:center;
+}
+
+.email_search{
+  max-width:580px;
+  padding-left:50px;
+  margin:0 auto;
+  display:flex;
+  align-items:center;
+}
